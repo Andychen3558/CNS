@@ -1,0 +1,13 @@
+Wireshark SSL debug log 
+
+Wireshark version: 3.0.1 (v3.0.1-0-gea351cd8)
+GnuTLS version:    3.4.17
+Libgcrypt version: 1.7.7
+
+ssl_association_remove removing UDP 443 - handle 0x11ba5e880
+KeyID[20]:
+| 09 5d 26 da 26 73 c3 f7 f5 61 fb 25 91 ab ab 9b |.]&.&s...a.%....|
+| 57 e6 a0 b7                                     |W...            |
+ssl_init private key file /Users/andy/Desktop/codes/courses/cns/hw2/release/tls/private.pem successfully loaded.
+ssl_init port '443' filename '/Users/andy/Desktop/codes/courses/cns/hw2/release/tls/private.pem' password(only for p12 file) ''
+association_add tls.port port 443 handle 0x11ba5e880

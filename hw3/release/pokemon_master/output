@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Pokémon Master</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="author" content="bookgin">
+    <meta name="tested-by" content="powei">
+    <meta name="course" content="Cryptography and Network Security 2019 Spring - NTU">
+
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>
+</head>
+
+<body>
+<div>
+    <p align="right">Pokémon Coins: € 112</p>
+    <h1>Pokémon Master</h1>
+    <p align="center">Well-done! Here is your flag: BALSN{T0CT0U/R4CE_C0NDI7I0N_I5_50_IN7ERE57ING}</p>
+    <hr/>
+    <h2>Buy Pokémons</h2>
+    <table width="100%">
+      <tr>
+        
+          <th><img src="/static/Magikarp.png"></th>
+        
+          <th><img src="/static/Slowpoke.png"></th>
+        
+          <th><img src="/static/Eevee.png"></th>
+        
+          <th><img src="/static/Snorlax.png"></th>
+        
+      </tr>
+      <tr>
+        
+          <td align="center">
+            <form action="buy">
+              <input type="text" name="name" value="Magikarp" hidden>Magikarp<br/>
+              <input type="submit" value="€ 1">
+            </form>
+          </td>
+        
+          <td align="center">
+            <form action="buy">
+              <input type="text" name="name" value="Slowpoke" hidden>Slowpoke<br/>
+              <input type="submit" value="€ 217">
+            </form>
+          </td>
+        
+          <td align="center">
+            <form action="buy">
+              <input type="text" name="name" value="Eevee" hidden>Eevee<br/>
+              <input type="submit" value="€ 388">
+            </form>
+          </td>
+        
+          <td align="center">
+            <form action="buy">
+              <input type="text" name="name" value="Snorlax" hidden>Snorlax<br/>
+              <input type="submit" value="€ 499">
+            </form>
+          </td>
+        
+      </tr>
+    </table>
+    <hr/>
+    <h2>Your Pokémons</h2>
+    <ol>
+      
+        <li><img src="/static/Magikarp.png">Magikarp</li>
+      
+        <li><img src="/static/Snorlax.png">Snorlax</li>
+      
+        <li><img src="/static/Slowpoke.png">Slowpoke</li>
+      
+        <li><img src="/static/Eevee.png">Eevee</li>
+      
+    </ol>
+</div>
+</body>
+</html>
